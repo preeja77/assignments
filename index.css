@@ -1,0 +1,182 @@
+* {
+  font-family: "Roboto";
+}
+
+.banner-section-bg-container {
+  background-color: #ffa1a9;
+  height: 300vh;
+  background-size: cover;
+}
+
+.profile-section-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-image {
+  margin-top: 45px;
+  border: solid;
+  padding: 12px;
+  height: 45px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  align-self: center;
+}
+
+.title {
+  margin-top: 5px;
+  color: #3d5186;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.profile-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name {
+  margin-top: 25px;
+  color: #2a2a64;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.designation {
+  color: #3d5186;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.vertical-line {
+  border-left: 3px solid #2a2a63;
+  height: 120px;
+  margin-bottom: 0px;
+  margin-left: 55px;
+}
+
+.address-style {
+  margin-left: 35px;
+}
+
+.address {
+  margin-top: 15px;
+  color: #8b6082;
+  font-size: 10px;
+}
+
+.horizontail-line {
+  margin-top: 0px;
+  border: solid;
+  color: #2a2a63;
+  font-weight: 100;
+  border-width: 2px;
+}
+
+.work-section-container {
+  display: flex;
+}
+
+.experience-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.year-style {
+  margin-bottom: 10px;
+  color: #3d5186;
+  font-size: 10px;
+  margin-right: 25px;
+}
+
+.work-position {
+  color: #2a2a64;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.summary {
+  padding: 0px;
+  color: #8b6082;
+  font-size: 10px;
+}
+
+.skills-section-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.skill-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.skills-and-marks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #3d5186;
+  font-size: 10px;
+}
+
+.marks-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 0px;
+  align-items: flex-end;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical-line-two {
+  border-left: 3px solid #2a2a63;
+  height: 205px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 55px;
+}
+
+.interests-container {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.icon {
+  margin: 10px;
+  background-color: #2a2a64;
+  color: #ffa1a9;
+  padding: 25px;
+  border-radius: 35px;
+}
+
+.icon-style {
+  color: #3d5186;
+  font-size: 10px;
+  font-weight: 300;
+  align-self: center;
+  margin-left: 25px;
+}
+
+.education-section-container {
+  display: flex;
+}
